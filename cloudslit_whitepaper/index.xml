@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>CloudSlit WhitePaper</title><link>https://www.cloudslit.xyz/cloudslit_whitepaper/</link><description>Recent content on CloudSlit WhitePaper</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://www.cloudslit.xyz/cloudslit_whitepaper/index.xml" rel="self" type="application/rss+xml"/><item><title>CloutSlit:数据的私有检索</title><link>https://www.cloudslit.xyz/cloudslit_whitepaper/</link><pubDate>Sun, 02 Oct 2022 12:55:18 +0800</pubDate><guid>https://www.cloudslit.xyz/cloudslit_whitepaper/</guid><description>摘要 1. 介绍 1.1 动机 1.2 术语表 2.系统组成 2.1 全节点 2.2 矿工节点 2.3 网络验证者 2.4 DECA 2.5 客户端 3. 智能合约 3.1 交易结构 3.2 合约交互 4.Upgrade 4.1 DECA去中心化边缘计算策略 4.2 DECA证书机密化 摘要 CloudSlit旨在在全球构建一个去中心化的web3隐私数据检索安全网络体系，帮助用户重新夺回web2下被巨头侵蚀的隐私安全信息， 让当前全球大热的零信任安全网络技术结合web3更好的助力用户掌握自己的安全隐私数据，给用户良好的隐私数据检索安全网络产品体验。
+1. 介绍 1.1 动机 目前，可用于具有隐私保证的交互式（低延迟）通信的选择非常有限，目前开发的解决方案都集中在传统的单源数据发布者网络模型上，在延迟和威胁模型方面存在缺陷。
+CloudSlit 使用区块链、web3 和隐私数据检索的安全网络技术来增强和改善用户私有化的网络安全/隐私保护。
+为了保护web2下公众的网络安全，出现了一种非常流行的零信任安全架构。 我们团队一直在做零信任安全的开源产品，但是我们发现虽然很多零信任网络安全公司提供零信任安全平台，但是他们垄断了用户的网络接入节点， 集中存储了用户的核心安全配置文件。因此，我们正在考虑是否可以使用 web3 技术来实现隐私数据检索的安全网络。我们设计了 CloudSlit 项目，旨在为用户提供一个去中心化的隐私数据检索安全网络平台，帮助用户掌握自己的安全数据。
+2.系统组成 2.1 全节点 任何人都可以运行Fullnode，托管去中心化网络的元数据，并提供元数据联网和交易匹配平台。它集成了来自所有提供者的元数据，提供者每隔几秒钟使用基于 libp2p 的 pubsub来保持心跳到 Fullnode 以证明他们在线。
+用户可以找到资源和节点来建立自己的安全匿名网络隧道。他们只需要支付一些代币，提供者节点就可以获得这些代币作为奖励。
+对于所有用户和 Dao 的数据，我们使用 Filecoin 的 web3.storage 以去中心化的方式存储用户数据。
+2.2 矿工节点 网络矿工，用于去中心化数据私有检索的安全网络隧道提供商。
+我们的节点通过对等发现和路由通过libp2p的kademlia DHT和IPFS网络自动联网，通过libp2p的PubSub功能实现多个节点之间的数据同步。</description></item></channel></rss>
